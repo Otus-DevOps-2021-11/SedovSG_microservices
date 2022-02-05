@@ -1,0 +1,737 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"de",
+				"default"
+			],
+			[
+				"tem",
+				"templates"
+			],
+			[
+				"va",
+				"variables.json"
+			],
+			[
+				"y",
+				"id_rsa.yc.pub"
+			],
+			[
+				"H",
+				"HostName"
+			],
+			[
+				"Ide",
+				"IdentityFile"
+			],
+			[
+				"Htt",
+				"Http\\Request"
+			],
+			[
+				"text-r",
+				"text-right"
+			],
+			[
+				"text",
+				"text-white"
+			],
+			[
+				"back",
+				"backgroundImageBar"
+			],
+			[
+				"lo",
+				"logo.png"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"map",
+				"\"sourceMap\""
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"thr",
+				"throw"
+			],
+			[
+				"Th",
+				"Throwable"
+			],
+			[
+				"Feno",
+				"Fenom"
+			],
+			[
+				"err",
+				"error."
+			],
+			[
+				"-moz-box",
+				"-moz-box-flex"
+			],
+			[
+				"retu",
+				"return"
+			],
+			[
+				"fire",
+				"firefox_dev"
+			],
+			[
+				"xDe",
+				"xDebug"
+			],
+			[
+				"preventD",
+				"preventDefault();"
+			],
+			[
+				"call_user_func",
+				"call_user_func_array()"
+			],
+			[
+				"file_ge",
+				"file_get_contents()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 4,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "subli"
+					},
+					"BQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					2,
+					1,
+					"insert",
+					{
+						"characters": "me-te"
+					},
+					"BQAAAAUAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "xt"
+					},
+					"AgAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAAMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "-"
+					},
+					"AQAAAAwAAAAAAAAADQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAwAAAAAAAAADAAAAAAAAAABAAAALQ",
+					"AQAAAAAAAAABAAAADQAAAAAAAAANAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": ".*"
+					},
+					"AgAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAc3VibGltZS10ZXh0Lio",
+					"AQAAAAAAAAABAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": ".env"
+					},
+					"BAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"tar",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"m",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"phpa",
+				"Phpactor: Rename Variable"
+			],
+			[
+				"debu",
+				"Debugger: Start"
+			],
+			[
+				"compa",
+				"PHPCompanion:Implement Interface"
+			],
+			[
+				"csslint",
+				"Preferences: SublimeLinter Key Bindings"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"lsp togg",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"de",
+				"Debugger: Install Adapters"
+			],
+			[
+				"deb",
+				"Debugger: Open"
+			],
+			[
+				"term",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"termina",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"lsp",
+				"Preferences: LSP Utils Settings"
+			],
+			[
+				"ter",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"tr",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"te",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"ay",
+				"ayu: Activate theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 351.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/mnt/hdd/www/SedovSG_microservices"
+	],
+	"file_history":
+	[
+		"/mnt/hdd/www/SedovSG_microservices/.github/workflows/auto_assign.yml",
+		"/mnt/hdd/www/SedovSG_microservices/.github/PULL_REQUEST_TEMPLATE.md",
+		"/mnt/hdd/www/SedovSG_microservices/.github/auto_assign.yml",
+		"/mnt/hdd/www/SedovSG_microservices/.github/.pre-commit-config.yml",
+		"/mnt/hdd/www/SedovSG_microservices/.github/workflows/run-tests.yaml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/roles/db/meta/main.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/roles/db/tasks/main.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/roles/app/meta/main.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/roles/app/tasks/main.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/prod/group_vars/app",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/stage/group_vars/app",
+		"/mnt/hdd/www/SedovSG_infra/README.md",
+		"/mnt/hdd/www/SedovSG_infra/ansible/playbooks/app.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/playbooks/clone.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/playbooks/db.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/playbooks/deploy.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/playbooks/reddit_app_multiple_plays.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/prod/inventory",
+		"/mnt/hdd/www/SedovSG_infra/ansible/ansible.cfg",
+		"/mnt/hdd/www/SedovSG_infra/packer/app.json",
+		"/mnt/hdd/www/SedovSG_infra/packer/db.json",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/stage/inventory",
+		"/mnt/hdd/www/SedovSG_infra/terraform/stage/variables.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/prod/variables.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/stage/terraform.tfvars",
+		"/mnt/hdd/www/SedovSG_infra/terraform/stage/terraform.tfvars.example",
+		"/mnt/hdd/www/SedovSG_infra/terraform/prod/terraform.tfvars.example",
+		"/mnt/hdd/www/SedovSG_infra/terraform/prod/terraform.tfvars",
+		"/mnt/hdd/www/SedovSG_infra/ansible/vault.key",
+		"/mnt/hdd/www/SedovSG_infra/terraform/modules/app/main.tf",
+		"/mnt/hdd/www/SedovSG_infra/ansible/playbooks/site.yml",
+		"/mnt/hdd/www/SedovSG_infra/terraform/modules/app/variables.tf",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/prod/credentials.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/stage/credentials.yml",
+		"/mnt/hdd/www/SedovSG_infra/.gitignore",
+		"/mnt/hdd/www/SedovSG_infra/terraform/stage/main.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/modules/vpc/main.tf",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/stage/requirements.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/roles/app/handlers/main.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/prod/group_vars/all",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/stage/group_vars/db",
+		"/mnt/hdd/www/SedovSG_infra/ansible/environments/stage/group_vars/all",
+		"/mnt/hdd/www/SedovSG_infra/ansible/roles/db/defaults/main.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/roles/app/defaults/main.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/app.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/db.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/inventory.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/inventory",
+		"/mnt/hdd/www/SedovSG_infra/ansible/roles/db/handlers/main.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/deploy.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/site.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/reddit_app_one_play.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/reddit_app_multiple_plays.yml",
+		"/mnt/hdd/www/SedovSG_infra/packer/variables.json",
+		"/mnt/hdd/www/SedovSG_infra/packer/variables.json.example",
+		"/mnt/hdd/www/SedovSG_infra/ansible/packer_app.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/packer_db.yml",
+		"/mnt/hdd/www/SedovSG_infra/terraform/stage/terraform.tfstate",
+		"/mnt/hdd/www/SedovSG_infra/terraform/modules/db/outputs.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/modules/app/outputs.tf",
+		"/mnt/hdd/www/SedovSG_infra/ansible/files/puma.service",
+		"/mnt/hdd/www/SedovSG_infra/ansible/clone.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/reddit_app.yml",
+		"/mnt/hdd/www/SedovSG_infra/ansible/reddit_app2.yml",
+		"/mnt/hdd/www/SedovSG_infra/terraform/modules/db/main.tf",
+		"/mnt/hdd/www/SedovSG_infra/ansible/templates/db_config.j2",
+		"/mnt/hdd/www/SedovSG_infra/ansible/templates/mongod.conf.j2",
+		"/mnt/hdd/www/SedovSG_infra/terraform/files/puma.service",
+		"/mnt/hdd/www/SedovSG_infra/LICENSE",
+		"/home/stas/.profile",
+		"/home/stas/.bashrc",
+		"/mnt/hdd/www/SedovSG_infra/ansible/requirements.txt",
+		"/mnt/hdd/www/SedovSG_infra/terraform/terraform.tfvars.example",
+		"/mnt/hdd/www/SedovSG_infra/terraform/storage-bucket.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/stage/outputs.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/prod/main.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/main.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/variables.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/outputs.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/terraform.tfvars",
+		"/mnt/hdd/www/SedovSG_infra/terraform/modules/db/variables.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/key.json",
+		"/mnt/hdd/www/SedovSG_infra/terraform/modules/vpc/outputs.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/db.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/vpc.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/app.tf",
+		"/mnt/hdd/www/SedovSG_infra/packer/key.json",
+		"/home/stas/yandex-cloud/keys/packer/key.json",
+		"/mnt/hdd/www/SedovSG_infra/terraform/lb.tf",
+		"/mnt/hdd/www/SedovSG_infra/terraform/files/deploy.sh",
+		"/home/stas/.ssh/config",
+		"/mnt/hdd/www/SedovSG_infra/play-travis/test.py",
+		"/mnt/hdd/www/SedovSG_infra/packer/ubuntu16.json",
+		"/mnt/hdd/www/SedovSG_infra/packer/immutable.json",
+		"/mnt/hdd/www/SedovSG_infra/packer/files/install_reddit.sh",
+		"/mnt/hdd/www/SedovSG_infra/packer/variables.json.examples",
+		"/mnt/hdd/www/SedovSG_infra/packer/scripts/install_mongodb.sh",
+		"/mnt/hdd/www/SedovSG_infra/packer/scripts/install_ruby.sh",
+		"/mnt/hdd/www/SedovSG_infra/packer/config-scripts/create-reddit-vm.sh",
+		"/mnt/hdd/www/SedovSG_infra/packer/config-scripts/cloud_config.yaml",
+		"/home/stas/.ssh/known_hosts",
+		"/home/stas/.ssh/OMNI/id_rsa.siptatek.pub",
+		"/mnt/hdd/www/SedovSG_infra/deploy.sh",
+		"/mnt/hdd/www/SedovSG_infra/install_mongodb.sh",
+		"/mnt/hdd/www/SedovSG_infra/install_ruby.sh",
+		"/mnt/hdd/www/SedovSG_infra/cloud-config.yaml",
+		"/mnt/hdd/www/SedovSG_infra/deploy.metadata.sh",
+		"/mnt/hdd/www/SedovSG_infra/cloud-bastion.ovpn",
+		"/mnt/hdd/www/SedovSG_infra/setupvpn.sh",
+		"/home/stas/Загрузки/test_test_server.ovpn",
+		"/mnt/hdd/www/SedovSG_infra/.github/PULL_REQUEST_TEMPLATE.md",
+		"/mnt/hdd/www/SedovSG_infra/.github/workflows/auto_assign.yml",
+		"/home/stas/Загрузки/config",
+		"/home/stas/Видео/002",
+		"/home/stas/Видео/2.txt",
+		"/home/stas/Видео/~?",
+		"/mnt/hdd/docker/test-url/app/webpack.mix.js",
+		"/mnt/hdd/docker/test-url/app/resources/js/bootstrap.js",
+		"/mnt/hdd/docker/test-url/app/package.json",
+		"/mnt/hdd/docker/test-url/app/routes/api.php",
+		"/mnt/hdd/docker/test-url/app/routes/web.php",
+		"/mnt/hdd/docker/test-url/app/resources/css/app.scss",
+		"/mnt/hdd/docker/test-url/app/resources/js/app.js",
+		"/mnt/hdd/docker/test-url/app/app/Http/Controllers/Controller.php",
+		"/mnt/hdd/docker/test-url/app/app/Http/Controllers/v1/UrlController.php",
+		"/tmp/mozilla_stas0/chat-159102-9cb48d.txt",
+		"/home/stas/.config/sublime-text/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/mnt/hdd/docker/test-url/app/resources/views/welcome.blade.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 152.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								4
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 21,
+								"count": 1,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "l",
+									"selector": "text.html"
+								}
+							],
+							"auto_name": "",
+							"function_name_status_row": 0,
+							"lsp_uri": "file:///mnt/hdd/www/SedovSG_microservices/.gitignore",
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 60.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Debugger":
+	{
+		"height": 373.0
+	},
+	"output.Debugger: Console":
+	{
+		"height": 0.0
+	},
+	"output.Debugger: Protocol":
+	{
+		"height": 228.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 228.0
+	},
+	"output.Terminus":
+	{
+		"height": 429.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 228.0
+	},
+	"output.diagnostics":
+	{
+		"height": 228.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 228.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 228.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.references":
+	{
+		"height": 228.0
+	},
+	"pinned_build_system": "",
+	"project": "SedovSG_microservices.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"esl",
+				"node_modules/.bin/eslint"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 327.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"add"
+			]
+		],
+		"width": 580.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
