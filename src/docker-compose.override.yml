@@ -1,0 +1,15 @@
+---
+version: '3.3'
+services:
+
+  ui:
+    build:
+      dockerfile: Dockerfile.dev
+    image: '${REPOSITORY_NAME}/${COMPOSE_PROJECT_NAME}-ui:1.0-dev'
+    container_name: '${COMPOSE_PROJECT_NAME}_ui-dev'
+
+  comment:
+    build:
+      dockerfile: Dockerfile.dev
+    image: '${REPOSITORY_NAME}/${COMPOSE_PROJECT_NAME}-comment:1.0-dev'
+    container_name: '${COMPOSE_PROJECT_NAME}_comment-dev'

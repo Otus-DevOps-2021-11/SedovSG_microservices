@@ -29,3 +29,21 @@ $: docker tag reddit:latest sedovsg/otus-reddit:1.0 && docker push sedovsg/otus-
 ```bash
 $: docker run --name reddit -d --network=host reddit:latest
 ```
+
+## Изменение имени сервиса
+
+Для данной опреации используются переменные окрцжения, предоставленные Docker Compose:
+
+- REPOSITORY_NAME - позволяет переопределить значение используемого по умолчнию директории docker-compose
+- COMPOSE_PROJECT_NAME - название проекта
+
+## Разделение сред сборок приложения
+
+По умолчанию в Compose используются два файла `docker-compose.yml` и `docker-compose.override.yml`. Если первый файл, по соглашению, содержит всю базовую конфигурацию сервиса, то второй - может переопределения базовой конфигурации. `docker-compose.override.yml` чаще всего используют для `dev` среды, т.к. при сборке приложения нет необходимости указывать флаг `-f`.
+
+Возможны следующие среды - `stage` и `prod`. Тогда для запуска соответсвующих файлов неоходимо исаользовать следующие команды:
+
+```bash
+$: docker-compose -f docker-compose.yml -f docker-compose.stage.yml run --build -d
+$: docker-compose -f docker-compose.yml -f docker-compose.prod.yml run --build -d
+```
