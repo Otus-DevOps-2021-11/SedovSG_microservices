@@ -30,6 +30,21 @@ $: docker tag reddit:latest sedovsg/otus-reddit:1.0 && docker push sedovsg/otus-
 $: docker run --name reddit -d --network=host reddit:latest
 ```
 
+## Создание сети
+
+```bash
+$: docker network create {name}
+```
+
+## Запуск контейнеров:
+
+```bash
+$: docker run -d --network=reddit --network-alias=post_db --network-alias=comment_db mongo:latest
+$: docker run -d --network=reddit --network-alias=post sedovsg/post:1.0
+$: docker run -d --network=reddit --network-alias=comment sedovsg/comment:1.0
+$: docker run -d --network=reddit -p 9292:9292 sedovsg/ui:1.0
+```
+
 ## Изменение имени сервиса
 
 Для данной опреации используются переменные окрцжения, предоставленные Docker Compose:
@@ -46,4 +61,3 @@ $: docker run --name reddit -d --network=host reddit:latest
 ```bash
 $: docker-compose -f docker-compose.yml -f docker-compose.stage.yml run --build -d
 $: docker-compose -f docker-compose.yml -f docker-compose.prod.yml run --build -d
-```
