@@ -1,0 +1,56 @@
+---
+version: '3.6'
+services:
+  post_db:
+    image: mongo:${MONGO_TAG}
+    container_name: '${COMPOSE_PROJECT_NAME}_mongo'
+    volumes:
+      - post_db:/data/db
+    networks:
+      backend:
+        aliases:
+          - '${COMPOSE_PROJECT_NAME}-backnet'
+  ui:
+    build:
+      context: ./ui
+    image: '${REPOSITORY_NAME}/${COMPOSE_PROJECT_NAME}-ui:1.0'
+    container_name: '${COMPOSE_PROJECT_NAME}_ui'
+    ports:
+      - ${UI_PORT}:${UI_PORT}
+    restart: always
+    depends_on:
+      - post_db
+    networks:
+      backend:
+        aliases:
+          - '${COMPOSE_PROJECT_NAME}-backnet'
+      frontend:
+        aliases:
+          - '${COMPOSE_PROJECT_NAME}-frontend'
+  post:
+    build:
+      context: ./ui
+    image: '${REPOSITORY_NAME}/${COMPOSE_PROJECT_NAME}-post:1.0'
+    container_name: '${COMPOSE_PROJECT_NAME}_post'
+    networks:
+      backend:
+        aliases:
+          - '${COMPOSE_PROJECT_NAME}-backnet'
+  comment:
+    build:
+      context: ./comment
+    image: '${REPOSITORY_NAME}/${COMPOSE_PROJECT_NAME}-comment:1.0'
+    container_name: '${COMPOSE_PROJECT_NAME}_comment'
+    networks:
+      backend:
+        aliases:
+          - '${COMPOSE_PROJECT_NAME}-backnet'
+
+volumes:
+  post_db:
+
+networks:
+  backend:
+    name: '${COMPOSE_PROJECT_NAME}-network'
+  frontend:
+    name: '${COMPOSE_PROJECT_NAME}-network'
