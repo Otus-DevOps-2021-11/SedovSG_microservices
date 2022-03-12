@@ -61,3 +61,21 @@ $: docker run -d --network=reddit -p 9292:9292 sedovsg/ui:1.0
 ```bash
 $: docker-compose -f docker-compose.yml -f docker-compose.stage.yml run --build -d
 $: docker-compose -f docker-compose.yml -f docker-compose.prod.yml run --build -d
+```
+
+## Устновка Gitlab Omnibus
+
+Установка Gitlab Omnibus может быть использована в ознакомительных целях, использовать в окружении производсва - не рекомендуется.
+
+### Запуск контейнера Gitlab
+
+```bash
+$: cd gitlab-ci && docker-compose up --build -d
+```
+
+## Установка и регистрация бегунов для выполнения задач CI/CD
+
+```bash
+$: docker run -d --name gitlab-runner --restart always -v /srv/gitlab-runner/config:/etc/gitlab-runner -v /var/run/docker.sock:/var/run/docker.sock gitlab/gitlab-runner:latest
+$: docker exec -it gitlab-runner gitlab-runner register --url http://130.193.53.217 --non-interactive --locked=false --name DockerRunner --executor docker --docker-image alpine:latest --registration-token GR13489416hUfrpJPwiPrApXBuUxi --tag-list "linux,xenial,ubuntu,docker" --run-untagged
+```
