@@ -101,3 +101,4 @@ networks:
   backend:
   frontend:
     name: '${COMPOSE_PROJECT_NAME}-network'
+
