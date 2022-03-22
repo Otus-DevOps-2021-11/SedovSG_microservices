@@ -79,3 +79,32 @@ $: cd gitlab-ci && docker-compose up --build -d
 $: docker run -d --name gitlab-runner --restart always -v /srv/gitlab-runner/config:/etc/gitlab-runner -v /var/run/docker.sock:/var/run/docker.sock gitlab/gitlab-runner:latest
 $: docker exec -it gitlab-runner gitlab-runner register --url http://130.193.53.217 --non-interactive --locked=false --name DockerRunner --executor docker --docker-image alpine:latest --registration-token GR13489416hUfrpJPwiPrApXBuUxi --tag-list "linux,xenial,ubuntu,docker" --run-untagged
 ```
+
+## Мониторинг сервисов:
+
+```bash
+$: yc compute instance create \
+--name docker-host \
+--hostname docker-host \
+--memory=4 --zone=ru-central1-a \
+--create-boot-disk image-folder-id=standard-images,image-family=ubuntu-1804-lts,size=15GB \ 
+--network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4 --ssh-key ~/.ssh/id_rsa.yc.pub
+```
+
+```bash
+$: docker-machine create \
+--driver generic \
+--generic-ip-address=178.154.247.119 \
+--generic-ssh-user yc-user \
+--generic-ssh-key ~/.ssh/id_rsa.yc \
+docker-host
+
+$: eval $(docker-machine env docker-host)
+```
+
+### Образы в репозитории на Docker Hub:
+
+- [sedovsg/reddit-ui](https://hub.docker.com/repository/docker/sedovsg/reddit-ui)
+- [sedovsg/reddit-post](https://hub.docker.com/repository/docker/sedovsg/reddit-post)
+- [sedovsg/reddit-comment](https://hub.docker.com/repository/docker/sedovsg/reddit-comment)
+- [sedovsg/reddit-prometheus](https://hub.docker.com/repository/docker/sedovsg/reddit-prometheus)
