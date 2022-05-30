@@ -108,3 +108,22 @@ $: eval $(docker-machine env docker-host)
 - [sedovsg/reddit-post](https://hub.docker.com/repository/docker/sedovsg/reddit-post)
 - [sedovsg/reddit-comment](https://hub.docker.com/repository/docker/sedovsg/reddit-comment)
 - [sedovsg/reddit-prometheus](https://hub.docker.com/repository/docker/sedovsg/reddit-prometheus)
+
+
+## Логирование сервисов:
+
+```bash
+$: git clone --branch=logging git@github.com:express42/reddit.git src
+```
+
+```bash
+$: yc compute instance create --name docker-host --hostname docker-host --memory=4 --zone=ru-central1-a --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-1804-lts,size=15GB --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4 --ssh-key ~/.ssh/id_rsa.yc.pub
+```
+
+```bash
+$: docker-machine create --driver generic --generic-ip-address=51.250.85.141 --generic-ssh-user yc-user --generic-ssh-key ~/.ssh/id_rsa.yc logging
+```
+
+```bash
+$: $: eval $(docker-machine env docker-host)
+```

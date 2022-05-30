@@ -12,15 +12,20 @@ services:
           - '${COMPOSE_PROJECT_NAME}-backnet'
 
   ui:
-    build:
-      context: ../src/ui
-    image: '${REPOSITORY_NAME}/${COMPOSE_PROJECT_NAME}-ui:1.0'
+    image: ${USERNAME}/${COMPOSE_PROJECT_NAME}-ui
     container_name: '${COMPOSE_PROJECT_NAME}_ui'
     ports:
       - ${UI_PORT}:${UI_PORT}
     restart: always
     depends_on:
       - post_db
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: service.ui
     networks:
       backend:
         aliases:
@@ -30,29 +35,38 @@ services:
           - '${COMPOSE_PROJECT_NAME}-frontend'
 
   post:
-    build:
-      context: ../src/post-py
-    image: '${REPOSITORY_NAME}/${COMPOSE_PROJECT_NAME}-post:1.0'
+    image: ${USERNAME}/${COMPOSE_PROJECT_NAME}-post
     container_name: '${COMPOSE_PROJECT_NAME}_post'
+    environment:
+      - POST_DATABASE_HOST=post_db
+      - POST_DATABASE=posts
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: service.ui
+    depends_on:
+      - post_db
+    ports:
+      - "5000:5000"
     networks:
       backend:
         aliases:
           - '${COMPOSE_PROJECT_NAME}-backnet'
 
   comment:
-    build:
-      context: ../src/comment
-    image: '${REPOSITORY_NAME}/${COMPOSE_PROJECT_NAME}-comment:1.0'
+    image: ${USERNAME}/${COMPOSE_PROJECT_NAME}-comment
     container_name: '${COMPOSE_PROJECT_NAME}_comment'
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     networks:
       backend:
         aliases:
           - '${COMPOSE_PROJECT_NAME}-backnet'
 
   prometheus:
-    build:
-      context: ../monitoring/prometheus
-    image: '${REPOSITORY_NAME}/${COMPOSE_PROJECT_NAME}-prometheus:latest'
+    image: ${USERNAME}/${COMPOSE_PROJECT_NAME}-prometheus
     container_name: '${COMPOSE_PROJECT_NAME}_prometheus'
     ports:
       - '9090:9090'
@@ -62,6 +76,8 @@ services:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/prometheus'
       - '--storage.tsdb.retention=1d' # Задаем время хранения метрик в 1 день
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     networks:
       backend:
         aliases:
@@ -101,4 +117,3 @@ networks:
   backend:
   frontend:
     name: '${COMPOSE_PROJECT_NAME}-network'
-
